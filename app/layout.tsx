@@ -18,8 +18,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang=" es\ className={\\ \\}>
- <body className=\font-sans antialiased\>{children}</body>
- </html>
- );
+    <html lang="es" className={`${cormorant.variable} ${inter.variable}`}>
+      <body className="font-sans antialiased">{children}</body>
+    </html>
+  );
 }
